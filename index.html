@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- displays site properly based on user's device -->
+
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./images/favicon-32x32.png"
+        />
+        <link rel="stylesheet" href="./sass/main.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap"
+            rel="stylesheet"
+        />
+        <title>Frontend Mentor | Time tracking dashboard</title>
+    </head>
+    <body>
+        <main class="data">
+            <section class="report">
+                <div class="top">
+                    <img
+                        class="avatar"
+                        src="./images/image-jeremy.png"
+                        alt="avatar"
+                    />
+                    <p>Report for</p>
+                    <h1 class="name">Jeremy Robson</h1>
+                </div>
+                <div class="bottom">
+                    <ul class="list">
+                        <li class="list-item">Daily</li>
+                        <li class="list-item active">Weekly</li>
+                        <li class="list-item">Monthly</li>
+                    </ul>
+                </div>
+            </section>
+            <section class="work card" id="work">
+                <div class="overlay"></div>
+                <div class="content">
+                    <div class="top">
+                        <h1>Work</h1>
+                        <div class="dots">
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                        </div>
+                    </div>
+                    <div class="bottom">
+                        <span class="time">32hrs</span>
+                        <span class="last-time">Last Week - 36hrs</span>
+                    </div>
+                </div>
+            </section>
+            <section class="play card" id="play">
+                <div class="overlay"></div>
+                <div class="content">
+                    <div class="top">
+                        <h1>Play</h1>
+                        <div class="dots">
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                        </div>
+                    </div>
+                    <div class="bottom">
+                        <span class="time">10hrs</span>
+                        <span class="last-time">Last Week - 8hrs</span>
+                    </div>
+                </div>
+            </section>
+            <section class="study card" id="study">
+                <div class="overlay"></div>
+                <div class="content">
+                    <div class="top">
+                        <h1>Study</h1>
+                        <div class="dots">
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                        </div>
+                    </div>
+                    <div class="bottom">
+                        <span class="time">4hrs</span>
+                        <span class="last-time">Last Week - 7hrs</span>
+                    </div>
+                </div>
+            </section>
+            <section class="exercise card" id="exercise">
+                <div class="overlay"></div>
+                <div class="content">
+                    <div class="top">
+                        <h1>Exercise</h1>
+                        <div class="dots">
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                        </div>
+                    </div>
+                    <div class="bottom">
+                        <span class="time">4hrs</span>
+                        <span class="last-time">Last Week - 5hrs</span>
+                    </div>
+                </div>
+            </section>
+            <section class="social card" id="social">
+                <div class="overlay"></div>
+                <div class="content">
+                    <div class="top">
+                        <h1>Social</h1>
+                        <div class="dots">
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                        </div>
+                    </div>
+                    <div class="bottom">
+                        <span class="time">5hrs</span>
+                        <span class="last-time">Last Week - 10hrs</span>
+                    </div>
+                </div>
+            </section>
+            <section class="self-care card" id="self care">
+                <div class="overlay"></div>
+                <div class="content">
+                    <div class="top">
+                        <h1>Self Care</h1>
+                        <div class="dots">
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                        </div>
+                    </div>
+                    <div class="bottom">
+                        <span class="time">2hrs</span>
+                        <span class="last-time">Last Week - 2hrs</span>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <script src="./js/script.js"></script>
+    </body>
+</html>
